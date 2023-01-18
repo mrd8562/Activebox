@@ -43,6 +43,10 @@ header {
   font-size: 12px;
 }
 
+.h-link:hover {
+  color: #ffffff;
+}
+
 .logo-link .logo, .logo:visited, .logo:active{
   color: white;
   font-weight: 100;
@@ -88,6 +92,10 @@ header {
   cursor: pointer;
 
   -webkit-appearance: none;
+}
+
+.btn-lean:hover {
+  background-color: #ff2121;
 }
 
 .info-block.element {
@@ -237,13 +245,23 @@ footer {
 }
 
 .icon_facebook-text {
-  background-image: url(../images/fb.svg);
+  background-image: url(../images/fb.png);
 }
 .icon_twitter-text {
   background-image: url(../images/tw.png);
 }
 .icon_in-text {
-  background-image: url(../images/in.svg);
+  background-image: url(../images/in.png);
+}
+
+.icon_facebook-text:hover {
+  background-image: url(../images/fb-a.png);
+}
+.icon_twitter-text:hover {
+  background-image: url(../images/tw-a.png);
+}
+.icon_in-text:hover {
+  background-image: url(../images/in-a.png);
 }
 
 
@@ -258,13 +276,14 @@ footer {
   font-size: 12px;
 }
 
-.author{
+.author, .author:active, .author:visited{
   text-decoration: none;
+  color: #ccccd3;
+  font-size: 12px;
 }
 
-.author:active, .author:visited{
- color: #ccccd3;
- font-size: 12px;
+.author:hover{
+  color: #ff8787;
 }
 
 .heart {
