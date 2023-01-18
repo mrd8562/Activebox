@@ -11,7 +11,7 @@ li {
 }
 
 header {
-  background: url(/images/header-backgroudn.jpg);
+  background: url(../images/header-backgroudn.jpg);
   background-repeat: no-repeat;
   width: auto;
 }
@@ -237,13 +237,13 @@ footer {
 }
 
 .icon_facebook-text {
-  background-image: url(/images/fb.svg);
+  background-image: url(../images/fb.svg);
 }
 .icon_twitter-text {
-  background-image: url(/images/tw.png);
+  background-image: url(../images/tw.png);
 }
 .icon_in-text {
-  background-image: url(/images/in.svg);
+  background-image: url(../images/in.svg);
 }
 
 
