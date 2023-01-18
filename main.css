@@ -1,0 +1,276 @@
+html {
+  font-family: Arial, sans-serif;
+}
+body {
+  margin: 0;
+  width: 1900px;
+}
+
+li {
+  list-style-type: none;
+}
+
+header {
+  background: url(/images/header-backgroudn.jpg);
+  background-repeat: no-repeat;
+  width: auto;
+}
+
+.header-content, .info-block {
+  max-width: 1168px;
+  margin: 0 auto;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 6px;
+  border-bottom: 1px solid #4f5167;
+}
+
+.header-top a {
+  text-decoration: none;
+}
+
+.head-menu {
+  display: flex;
+  align-items: center;
+}
+.head-menu .h-link, .h-link, .h-link:visited {
+  color: #ccccd3;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.logo-link .logo, .logo:visited, .logo:active{
+  color: white;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.logo span {
+  color: #66697e;
+  font-weight: 800;
+}
+
+.head-menu li:nth-child(n+2){
+  margin-left: 62px;
+} 
+
+.header-bot {
+  text-align: center;
+  padding: 135px 130px;
+}
+.header-bot h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #fff;
+}
+.header-bot p {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #fff;
+  margin-bottom: 70px;
+}
+.btn-lean {
+  width: 200px;
+  height: 45px;
+
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+
+  background-color: #e84545;
+  border: none;
+  border-radius: 2px;
+
+  cursor: pointer;
+
+  -webkit-appearance: none;
+}
+
+.info-block.element {
+  width: 300px;
+
+}
+.pre {
+  text-align: center;
+  margin: 20px 0;
+}
+.pre h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.pre p {
+  font-weight: lighter;
+  font-size: 14px;
+  color: #80858b;
+}
+
+.info-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 35px 0;
+}
+
+.gallery-block{
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(1, auto);
+  margin: 0;
+}
+
+.photo-block {
+  border: solid 1px #fff;
+  position: relative;
+}
+.photo-text {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform:translate(-50%, -50%);
+ 
+ text-align: center;
+ color: #fff;
+ display: none;
+}
+
+.photo-text h3 {
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.photo-text p {
+  font-weight: lighter;
+  font-size: 14px;  
+}
+
+.photo-block:hover .photo-text{
+  background-color: rgba(212, 64, 64, 0.849);
+  display: block;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.photo-block img{
+ width: 100%;
+ height: 100%;
+}
+
+.center-center {
+  padding-top: 30%;
+}
+
+footer {
+  background-color: #313454;
+  width: auto;
+}
+
+.footer-size {
+  background-color: #3a3e64;
+  width: auto;
+}
+
+.up-footer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  margin: 0 auto;
+
+  padding: 50px 0;
+}
+
+.up-footer-about {
+  width: 350px;
+}
+.up-footer-location {
+  width: 150px;
+}
+
+.up-footer-share {
+  margin-left: 395px;
+  margin-right: 200px;
+}
+.title-footer {
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.842);
+}
+
+.p-footer {
+  font-weight: lighter;
+  font-size: 14px;
+  color: #9d9fb2;
+}
+
+.icon-foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+
+  margin: 0 -5px;
+}
+
+.icon-foot li {
+  flex: 1 1 auto;
+  margin: 0 3px;
+}
+
+.icon_facebook-text, .icon_twitter-text, .icon_in-text{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 40px;
+
+}
+
+.icon_facebook-text {
+  background-image: url(/images/fb.svg);
+}
+.icon_twitter-text {
+  background-image: url(/images/tw.png);
+}
+.icon_in-text {
+  background-image: url(/images/in.svg);
+}
+
+
+.down-footer {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.down-footer p {
+  color: #808080;
+  margin: 0px;
+  font-size: 12px;
+}
+
+.author{
+  text-decoration: none;
+}
+
+.author:active, .author:visited{
+ color: #ccccd3;
+ font-size: 12px;
+}
+
+.heart {
+  color: red;
+}
+
+
+
+
