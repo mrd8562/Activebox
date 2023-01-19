@@ -3,17 +3,20 @@ html {
 }
 body {
   margin: 0;
-  width: 1900px;
 }
 
 li {
   list-style-type: none;
 }
+menu {
+  padding: 0;
+}
 
 header {
   background: url(../images/header-backgroudn.jpg);
   background-repeat: no-repeat;
-  width: auto;
+  background-size: cover;
+  background-position: center;
 }
 
 .header-content, .info-block {
@@ -25,7 +28,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 25px 6px;
+  padding: 25px 60px;
   border-bottom: 1px solid #4f5167;
 }
 
@@ -58,7 +61,7 @@ header {
   font-weight: 800;
 }
 
-.head-menu li:nth-child(n+2){
+.head-menu li + li{
   margin-left: 62px;
 } 
 
@@ -289,7 +292,3 @@ footer {
 .heart {
   color: red;
 }
-
-
-
-
