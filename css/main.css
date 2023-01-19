@@ -15,7 +15,8 @@ menu {
 header {
   background: url(../images/header-backgroudn.jpg);
   background-repeat: no-repeat;
-  width: auto;
+  background-size: cover;
+  background-position: center;
 }
 
 .header-content, .info-block {
@@ -27,7 +28,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 25px 6px;
+  padding: 25px 60px;
   border-bottom: 1px solid #4f5167;
 }
 
